@@ -3,19 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Thankyou for subscribing</title>
 </head>
 <style>
-body{
-    text-align: center;
-}
+    body ,html{
+        font-family: 'Poppins', sans-serif;
+    }
 </style>
-<body>
-    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-        <h1 align="center" style="font-size: 50px;margin: 2rem; ">Thank you for Subscribing</h1>
-        <h3 style="color: grey;">We will mail you about our updates and offers</h3>
-        <h3 style="color: grey;">Stay tuned with scable</h3>
+<body class="flex justify-center md:p-5">
+    <div class="md:w-4/6 border-2 md:m-5">
+        <div class="m-5 p-5">
+            <div class="flex">
+                <img src="https://scable.vercel.app/static/images/scable.png" class="w-14">
+                <p class="self-center mx-5 text-2xl font-semibold">Scable</p>
+            </div>
+            <p class="my-5 text-xl">Thank You for subscribing to Scable!</p>
+            <hr class="border-2">
+        </div>
+        <div class="mx-5 px-5">
+            <p class="text-xl font-bold">Hi,</p>
+            <p class="text-lg my-5">We're excited to have you as part of our community! You’ve taken the first step towards effortless communication and stronger connections. Keep an eye on your inbox for our latest updates, tips, and exclusive offers.</p>
+        </div>
+        <div class="m-5 p-5">
+            <h1 class="text-lg font-bold">What's Next?</h1>
+            <p class="text-lg my-2">As a Scable subscriber, you'll enjoy:</p>
+            <ul class="list-disc text-lg m-5">
+                <li class="mb-5">Early access to new features</li>
+                <li class="mb-5">Exclusive content on how to maximize your communication experience</li>
+                <li class="mb-5">Special promotions and discounts</li>
+            </ul>
+        </div>
+        <div class="flex justify-center m-5 p-5">
+            <button href="https://scable.vercel.app/" class="bg-blue-600 hover:bg-blue-500 rounded-md p-3 text-white text-lg ">Explore Scable</button>
+        </div>
+        <div class="flex justify-center m-5 p-5">
+            <img src="https://scable.vercel.app/static/images/subimage.png" class="w-4/6 max-w-[500px] min-w-[300px]">
+        </div>
+        <div class="mx-5 px-5">
+            <p class="text-lg">Feel free to reach out to us anytime at [<span class="text-blue-400">support@scable.in</span>]</p>
+        </div>
+        <div class="m-5 px-5">
+            <p class="text-lg font-bold">Follow us on</p>
+            <div class="flex">
+                <a href="https://www.facebook.com"><i class="ph ph-facebook-logo text-3xl mx-2"></i></a>
+                <a href="https://x.com/"><i class="ph ph-x-logo text-3xl mx-2"></i></a>
+                <a href="https://www.instagram.com/scable.in"><i class="ph ph-instagram-logo text-3xl mx-2"></i></a>
+                <a href="https://www.linkedin.com/company/scablecompany/"><i class="ph ph-linkedin-logo text-3xl mx-2"></i></a>
+            </div>
+        </div>
     </div>
-    <img src="https://scable.vercel.app/images/Main%20Logo%20Scable-1.png" style="width:60%; min-width: 250px;">
 </body>
 </html>
